@@ -45,17 +45,50 @@ Modul belajar cybersecurity terstruktur untuk pemula yang ingin masuk ke dunia k
 
 ---
 
-## 📂 Cara Membaca
+## 📂 Struktur Repositori
 
 ```
-📁 repository
-└── 📄 README.md               ← Kamu di sini
-└── 📄 modul-belajar-cybersecurity.md  ← Modul utama
+📁 cybersecurity-dari-nol/
+│
+├── 📄 README.md
+│
+├── 📁 modul/
+│   ├── 📄 00-overview.md                        ← Ringkasan seluruh kurikulum
+│   │
+│   ├── 📁 bulan-1/
+│   │   ├── 📄 minggu-01-etika-cia-triad.md
+│   │   ├── 📄 minggu-02-networking.md
+│   │   ├── 📄 minggu-03-linux.md
+│   │   └── 📄 minggu-04-cara-kerja-web.md
+│   │
+│   ├── 📁 bulan-2/
+│   │   ├── 📄 minggu-05-owasp-top10.md
+│   │   ├── 📄 minggu-06-metodologi-hacking.md
+│   │   ├── 📄 minggu-07-kriptografi.md
+│   │   └── 📄 minggu-08-system-hardening.md
+│   │
+│   └── 📁 bulan-3/
+│       ├── 📄 minggu-09-network-security.md
+│       ├── 📄 minggu-10-big-four-tools.md
+│       ├── 📄 minggu-11-ctf-bug-bounty.md
+│       └── 📄 minggu-12-laporan-karier.md
+│
+├── 📁 cheatsheets/
+│   ├── 📄 linux-commands.md
+│   ├── 📄 networking.md
+│   ├── 📄 nmap.md
+│   ├── 📄 burpsuite.md
+│   ├── 📄 wireshark-filters.md
+│   ├── 📄 hydra.md
+│   └── 📄 metasploit.md
+│
+└── 📁 assets/
+    └── 📄 (diagram dan ilustrasi pendukung)
 ```
 
-Buka [`modul-belajar-cybersecurity.md`](./modul-belajar-cybersecurity.md) untuk mulai belajar.
+**Mulai dari sini:** [`modul/00-overview.md`](./modul/00-overview.md) — berisi ringkasan seluruh kurikulum sebelum masuk ke materi per minggu.
 
-Setiap minggu berisi:
+Setiap file minggu berisi:
 - **Konsep Kunci** — inti materi yang harus dipahami
 - **Tabel & Contoh** — referensi cepat dan ilustrasi konkret
 - **Latihan** — aksi nyata yang bisa dikerjakan hari itu
@@ -89,9 +122,13 @@ Bisa dibaca langsung di GitHub, atau gunakan tools Markdown favoritmu:
 - [VSCode](https://code.visualstudio.com) + extension Markdown Preview
 - Notion (import Markdown)
 
-**3. Ikuti urutan**
+**3. Mulai dari overview**
 
-Mulai dari Minggu 1 dan jangan loncat. Fondasi di Bulan 1 adalah kunci untuk memahami Bulan 2 dan 3.
+Baca [`modul/00-overview.md`](./modul/00-overview.md) dulu untuk gambaran besar, lalu masuk ke folder `bulan-1/` dan ikuti urutan minggu.
+
+**4. Jangan loncat**
+
+Fondasi di Bulan 1 adalah kunci untuk memahami Bulan 2 dan 3. Pastikan kamu mengerjakan bagian **Latihan** dan **Cek Pemahaman** sebelum lanjut.
 
 ---
 
